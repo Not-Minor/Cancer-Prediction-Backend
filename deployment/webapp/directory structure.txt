@@ -1,0 +1,10 @@
+deployment
+--webapp
+  --static
+    --models
+      --brain_model.h5
+    --uploads
+  --templates
+    --index_brain.html
+    --predict_brain.html
+  --app_brain.py

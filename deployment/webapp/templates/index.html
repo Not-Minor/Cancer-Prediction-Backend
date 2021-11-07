@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>CANCER PREDICTION</title>
+</head>
+
+<script type="text/javascript">
+	function showloading(){
+		image=document.getElementById('loading_image');
+		image.style.display='inline'
+	}
+</script>
+
+<body>
+	<div>
+		<center>
+			<h1 text-align: center>BREAST CANCER PREDICTION</h1>
+			<h4>Got your breast histopathology image?</h4>
+			<h4>This website will help you to predict if you have breast cancer or not. You just have to upload the image and press the Predict button and get the results with the accuracy of prediction.</h4>
+			<br><br>
+			
+			<form action="/upload" method="post" enctype="multipart/form-data" style="margin-top: 50px; width: 60%; text-align: center; margin: auto;" onsubmit="showloading()">
+		<span class="text-left btn btn-default btn-file">
+			Upload Image <input type="file" name="image">
+		</span>
+		<br><br>
+		<span class="text-right">
+			<input type="submit" value="Predict" class="btn btn-primary">
+		</span>
+	</form>
+</center>
+	</div>
+
+</body>
+</html>

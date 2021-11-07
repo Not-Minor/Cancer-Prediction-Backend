@@ -1,0 +1,17 @@
+absl-py==0.7.1
+chardet==3.0.4
+Flask==1.1.2
+Flask-Bootstrap
+Flask-WTF
+grpcio
+gunicorn
+h5py
+idna
+itsdangerous==1.1.0
+Jinja2
+numpy==1.18.5
+Keras==2.4.3
+Keras-Applications
+Keras-Preprocessing
+requests
+urllib3
